@@ -1,0 +1,352 @@
+body{
+    margin: 0px 40px;
+    background-color: white;
+    color: #2c2c2c;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+@font-face {
+    font-family: kelloggs;
+    src: url(KelloggsSans-Regular.woff);
+}
+header{
+    width: 100%;
+    height: 139.6px;
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    height: 79.2%;
+    width: 80%;
+    margin-top: 21.6px;
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    height: 79.2%;
+    width: 15%;
+    margin-top: 21.6px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.logo{
+    height: 32.24%;
+    width: 8.7%;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.barra_nav{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.navigazione{
+    height: 28%;
+    width: 700px;
+    margin-bottom: 10px;
+}
+.navigazione #navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 5px;
+    position: relative;
+}
+nav a{
+    color: #2c2c2c;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color: #BF162C;
+}
+
+.second a{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+.second a img{
+    height: 33px;
+    width: auto;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+/*
+.login{
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.italy{
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+.recipe{
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+.recipe img{
+    height: 33px;
+    width: auto;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.edit_prfile{
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+.edit_profile img{
+    height: 33px;
+    width: auto;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.like{
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+.like img{
+    height: 33px;
+    width: auto;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.logout{
+    margin-bottom: 7px;
+    margin-right: 10px;
+}
+
+.logout img{
+    height: 33px;
+    width: auto;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+.kcal{
+    margin-bottom: 7px;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+}
+.kcal img{
+    height: 33px;
+    width: auto;
+}
+.musica{
+    margin-bottom: 7px;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+    border-radius: 100%;
+}
+.musica img{
+    height: 33px;
+    width: auto;
+}*/
+
+.contatti{
+    width: 95px;
+    height: 40px;
+    margin-top: 10px;
+}
+.hidden{
+    display: none;
+}
+#navi img{
+    top: 2px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.menu{
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+.menu.hidden{
+    display: none;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.intero{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intero .primo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#impatto{
+    left: 36%;
+}
+
+#prodotti{
+    left: 15%;
+}
+
+#novità{
+    left: 58%;
+}
+
+#prodotti_iniziale{
+    height: 332px;
+    width: 100%;
+    background-image: url(https://static.silhouettedonna.it/wp-content/uploads/2015/06/calories.jpg);
+}
+#prodotti_iniziale h1{
+    z-index: 1;
+    font-family: kelloggs;
+    color: black;
+    font-size: 54px;
+    margin-bottom: 130px;
+    line-height: 1.2;
+}
+.testo_prodotti{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+}
+.piccola_barra{
+    width: 100%;
+    height: 74.8px;
+    margin-left: 15%;
+}
+
+.k img{
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 1%;
+}
+span .testo {
+    font-family: kelloggs;
+    font-size: 12px;
+    height: 30px;
+    color: #2c2c2c;
+    text-transform: uppercase;
+}
+
+/* Valori */
+#calorie{
+    text-align: center;
+}
+
+#Valori{
+    text-align: center;
+}
+
+.contenuto_lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenuto_lista p{
+    border: 1px solid black;
+    width: 30%;
+    font-family: kelloggs;
+}
+
+h4{
+    text-align: center;
+    font-family: kelloggs;
+    font-weight: bold;
+}
+
+  
+  #errore{
+    padding: 20px;
+    text-align: center;
+    font-family: kelloggs;
+    font-weight: bold;
+  }
+  #errore img{
+    width: 45px;
+    text-align: center;
+  }
+  
+  /* footer */
+  footer{
+    max-width: 1250px;
+    padding: 60px 3% 0 3%;
+    margin: 0 auto;
+    height: 340px;
+}
+.list{
+    width: calc(100% / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-right: 10px;
+}
+.contenitore_1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 2px solid lightgray;
+    width: 80%;
+}
+.contenitore_2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45.6px;
+    position:relative;
+    top: 60px;
+}
+.contenitore_2 p{
+    font-size: 10px;
+    color: #3b3b3b;
+    text-align: left;
+    display: inline-block;
+    width: 69%;
+}
+.slide_product p{
+    color: #666666;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.social_links{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.social_links a{
+    margin-left: 10px;
+}
